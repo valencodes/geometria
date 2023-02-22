@@ -17,9 +17,10 @@ public class Triangulo_DVGC extends FiguraGeometrica_DVGC {
 	}
 
 	@Override
-	public double area() { //Utiliza la formula de Her�n
+	public double area() { //Utiliza la formula de Her—n
 		double sp;
-		sp = this.perimetro() / 2;
+		sp = this.semiPerimetro();
 		return Math.sqrt(sp * (sp-lado1) * (sp-lado2) * (sp-lado3));
 	}
+	
 }
