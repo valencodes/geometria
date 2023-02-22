@@ -17,20 +17,18 @@ public class Rectangulo_DVGC extends FiguraGeometrica_DVGC {
 		l2 = lP;
 	}
 
-
-	@Override
 	/**
 	 * @return devuelve area del rectángulo
 	 */
+	@Override
 	public double area() {
 		return l1 * l2;
 	}
 	
-	
-	@Override
 	/**
 	 * @return el perímetro del rectángulo
 	 */
+	@Override
 	public double perimetro() {
 		return (2 * l1) + (2 * l2);
 	}
